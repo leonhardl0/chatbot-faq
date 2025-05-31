@@ -38,7 +38,3 @@ Bot: Acesse o Portal do Aluno > Financeiro > Segunda via.
 
 - Python 3.8+
 - Conexão com internet (para baixar modelo BERT)
-
-## Créditos
-
-Equipe CodeHive
