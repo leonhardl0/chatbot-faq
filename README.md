@@ -4,10 +4,10 @@ Este projeto é um protótipo de chatbot para responder automaticamente a pergun
 
 ## Funcionalidades
 
-✅ Carrega base de perguntas/respostas (FAQs)  
-✅ Usa embeddings BERT para comparar perguntas  
-✅ Responde automaticamente a perguntas semelhantes  
-✅ Protótipo simples e rápido de rodar
+- Carrega base de perguntas/respostas (FAQs)  
+- Usa embeddings BERT para comparar perguntas  
+- Responde automaticamente a perguntas semelhantes  
+- Protótipo simples e rápido de rodar
 
 ## Como rodar
 
