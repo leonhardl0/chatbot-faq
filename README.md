@@ -1,4 +1,4 @@
-# Chatbot FAQ - Automatização Inteligente
+# Chatbot FAQ — Automatização Inteligente
 
 Este projeto é um protótipo de chatbot para responder automaticamente a perguntas frequentes (FAQs) em universidades ou serviços públicos usando Processamento de Linguagem Natural (PLN).
 
