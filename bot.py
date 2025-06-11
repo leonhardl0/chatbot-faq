@@ -1,15 +1,15 @@
 import json
 from sentence_transformers import SentenceTransformer, util
 
-# Carregar FAQs de um arquivo JSON
+# carregar FAQs de um arquivo JSON
 with open('faqs.json', 'r', encoding='utf-8') as f:
     faqs = json.load(f)
 
-# Preparar modelo BERT
+# preparar modelo BERT
 print("Carregando modelo BERT...")
 model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
-# Pré-computar embeddings das perguntas FAQ
+# pré-computar embeddings das perguntas FAQ
 faq_questions = list(faqs.keys())
 faq_embeddings = model.encode(faq_questions, convert_to_tensor=True)
 
